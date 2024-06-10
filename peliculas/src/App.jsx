@@ -69,13 +69,13 @@ const App = () => {
         <div className='page'>
 
             <header>
-                <h1>Buscador de películas</h1>
+                <h1>Search Movies</h1>
                 <form className='form' onSubmit={handleSubmitJavascript}>
                     {/* <input ref={inputRef} placeholder='Movies' /> */}
                     <input onChange={handleChange} value={query} name='query' placeholder='Movies' />
                     {/* <button onClick={handleSubmitJavascript} type='submit'>Buscar</button> */}
                     <input type="checkbox" onChange={handleSort} checked={sort}/>
-                    <button type='submit'>Buscar</button>
+                    <button type='submit'>Search</button>
            
 
                 </form>

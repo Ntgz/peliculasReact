@@ -27,7 +27,7 @@ console.log('movies--------------------',movies);
 
 const NoMovies = () =>{
     return (
-        <p>No se encontraron peliculas</p>
+        <p>Cant find movies</p>
     )
 }
 
